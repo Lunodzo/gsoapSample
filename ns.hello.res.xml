@@ -6,8 +6,8 @@
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     xmlns:ns="http://tempuri.org/ns.xsd">
  <SOAP-ENV:Body>
-  <ns:hello>
-   <name></name>
-  </ns:hello>
+  <ns:helloResponse>
+   <greeting></greeting>
+  </ns:helloResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

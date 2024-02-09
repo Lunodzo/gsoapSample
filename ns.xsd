@@ -13,6 +13,15 @@
     <element name="hello">
       <complexType>
           <sequence>
+            <element name="name" type="xsd:string" minOccurs="1" maxOccurs="1"/><!-- ns__hello::name -->
+          </sequence>
+      </complexType>
+    </element>
+    <!-- operation response element -->
+    <element name="helloResponse">
+      <complexType>
+          <sequence>
+            <element name="greeting" type="xsd:string" minOccurs="1" maxOccurs="1"/><!-- ns__hello::greeting -->
           </sequence>
       </complexType>
     </element>
